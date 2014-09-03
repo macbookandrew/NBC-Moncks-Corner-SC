@@ -17,7 +17,7 @@ function add_soundboard_role() {
 		'upload_files' => true,
 		'manage_options' => true
 	));}
-
+}
 add_action( 'admin_init', 'add_soundboard_role' );
 // end Add soundboard custom role
 
