@@ -1,5 +1,5 @@
 /*
-Theme Name: New Child Theme
+Theme Name: NBC Moncks Corner, SC
 Theme URI: http://wordpress.org/themes/twentythirteen
 Author: Andrew Minion, the WordPress team
 Author URI: http://andrewrminion.com
@@ -59,7 +59,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 * {
-	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
 }
@@ -1334,6 +1333,7 @@ footer.entry-meta {
 
 .gallery-caption {
 	background-color: rgba(0, 0, 0, 0.7);
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #fff;
 	font-size: 14px;
