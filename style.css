@@ -110,6 +110,9 @@ body {
 	color: #141412;
 	line-height: 1.5;
 	margin: 0;
+	background: url('/wp-content/themes/NBC-Moncks-Corner-SC/images/background.jpg') no-repeat center center fixed;
+	background-size: cover;
+
 }
 
 a {
