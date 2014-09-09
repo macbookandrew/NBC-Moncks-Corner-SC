@@ -820,9 +820,8 @@ img.wp-smiley,
 	color: #141412;
 	display: block;
 	margin: 0 auto;
-	max-width: 1080px;
 	min-height: 230px;
-	padding: 0 20px;
+	padding: 0;
 	text-decoration: none;
 	width: 100%;
 }
