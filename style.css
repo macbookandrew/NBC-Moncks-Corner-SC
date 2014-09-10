@@ -708,28 +708,17 @@ img.wp-smiley,
 .site-header {
   position: relative; }
 
-.site-header .home-link {
-  color: #16110d;
-  display: block;
+.site-title, .site-description {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+header .logo {
+  width: 100%;
+  position: relative;
   margin: 0 auto;
-  min-height: 230px;
-  padding: 0;
-  text-decoration: none;
-  width: 100%; }
-
-.site-header .site-title:hover {
-  text-decoration: underline; }
-
-.site-title {
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0;
-  padding: 58px 0 10px; }
-
-.site-description {
-  font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
-  margin: 0; }
+  -webkit-filter: drop-shadow(0 0 3px white);
+  -webkit-transform: translateZ(0); }
 
 /**
  * 4.2 Navigation
@@ -2326,6 +2315,10 @@ footer.entry-meta {
   .sidebar .site-footer .widget-area {
     max-width: 100%;
     left: 0; } }
+@media (min-width: 768px) {
+  header .logo {
+    max-width: 50%;
+    left: 8%; } }
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
   .entry-content img.alignleft,
