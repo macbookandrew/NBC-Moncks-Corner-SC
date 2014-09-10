@@ -2545,6 +2545,11 @@ footer.entry-meta {
 	background-color: transparent;
 }
 
+.widget .vcard .title,
+.widget .vcard .fn {
+    display: none;
+}
+
 
 /**
  * 7.0 Footer

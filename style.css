@@ -2117,6 +2117,10 @@ footer.entry-meta {
 .widget_calendar tbody .pad, .site-footer .widget_calendar tbody .pad {
   background-color: transparent; }
 
+.widget .vcard .title,
+.widget .vcard .fn {
+  display: none; }
+
 /**
  * 7.0 Footer
  * ----------------------------------------------------------------------------
