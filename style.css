@@ -714,7 +714,7 @@ img.wp-smiley,
   clip: rect(1px, 1px, 1px, 1px); }
 
 header .logo {
-  width: 100%;
+  width: 95%;
   position: relative;
   margin: 0 auto;
   -webkit-filter: drop-shadow(0 0 3px white);
