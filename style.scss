@@ -2709,6 +2709,12 @@ footer.entry-meta {
 	}
 }
 
+@media (min-width: 1000px) {
+    .site-content {
+        min-height: 600px;
+    }
+}
+
 @media (max-width: 999px) {
 	.sidebar .entry-header,
 	.sidebar .entry-content,
