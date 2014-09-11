@@ -717,7 +717,7 @@ header .logo {
   width: 95%;
   position: relative;
   margin: 0 auto;
-  -webkit-filter: drop-shadow(0 0 3px white);
+  -webkit-filter: drop-shadow(0 0 2px #f7f5e7);
   -webkit-transform: translateZ(0); }
 
 /**
