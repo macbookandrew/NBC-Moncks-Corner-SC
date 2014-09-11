@@ -788,7 +788,6 @@ img.wp-smiley,
  */
 
 .site {
-	background-color: rgba(255, 255, 255, 0.3);
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -809,6 +808,11 @@ img.wp-smiley,
 .site-main .sidebar-inner {
 	margin: 0 auto;
 	max-width: 1040px;
+}
+
+.site-main,
+.site-footer {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
