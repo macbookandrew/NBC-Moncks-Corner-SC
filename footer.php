@@ -12,7 +12,7 @@
 
 		</div><!-- #main -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/church-header.png" alt="Photo of Northside Baptist Church" title="Northside Baptist Church | Moncks Corner, SC" width="100%" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/church-photo.png" alt="Photo of Northside Baptist Church" title="Northside Baptist Church | Moncks Corner, SC" width="100%" />
 			<?php get_sidebar( 'main' ); ?>
 
 			<div class="site-info">
