@@ -2478,11 +2478,11 @@ footer.entry-meta {
 }
 
 .widget a {
-	color: $link-color;
+	color: $link-highlight;
 }
 
 .widget a:hover {
-	color: $link-highlight;
+	color: $dark-background;
 }
 
 /* Search widget */
