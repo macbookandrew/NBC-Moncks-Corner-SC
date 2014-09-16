@@ -2246,7 +2246,7 @@ footer.entry-meta {
 
 .comment-meta,
 .comment-meta a {
-	color: #a2a2a2;
+	color: $link-color;
 	font-size: 13px;
 }
 
@@ -2259,13 +2259,13 @@ footer.entry-meta {
 }
 
 .ping-meta {
-	color: #a2a2a2;
+	color: $link-color;
 	font-size: 13px;
 	line-height: 2;
 }
 
 .comment-awaiting-moderation {
-	color: #a2a2a2;
+	color: $link-color;
 }
 
 .comment-awaiting-moderation:before {
@@ -2498,7 +2498,7 @@ footer.entry-meta {
 
 .widget_rss .rss-date,
 .widget_rss li > cite {
-	color: #a2a2a2;
+	color: $link-color;
 }
 
 /* Calendar Widget */

@@ -1873,7 +1873,7 @@ footer.entry-meta {
 
 .comment-meta,
 .comment-meta a {
-  color: #a2a2a2;
+  color: #752607;
   font-size: 13px; }
 
 .comment-meta a:hover {
@@ -1883,12 +1883,12 @@ footer.entry-meta {
   margin-bottom: 20px; }
 
 .ping-meta {
-  color: #a2a2a2;
+  color: #752607;
   font-size: 13px;
   line-height: 2; }
 
 .comment-awaiting-moderation {
-  color: #a2a2a2; }
+  color: #752607; }
 
 .comment-awaiting-moderation:before {
   content: "\f414";
@@ -2078,7 +2078,7 @@ footer.entry-meta {
 
 .widget_rss .rss-date,
 .widget_rss li > cite {
-  color: #a2a2a2; }
+  color: #752607; }
 
 /* Calendar Widget */
 .widget_calendar table,
