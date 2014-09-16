@@ -53,7 +53,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 $text-color:        #16110d; // used in body text, nav a, etc.
-$link-color:        #752607; // hyperlinks, etc.
+$link-color:        #f4d761; // hyperlinks, etc.
 $link-highlight:    #ea9629; // highlighted hyperlinks
 $light-tan:         #f7f5e7; // navbar, a few links
 $dark-background:   #1a1414; // footer, navbar highlights, etc.
@@ -465,7 +465,7 @@ del {
 }
 
 ins {
-	background: #fff9c0;
+	background: $link-color;
 	text-decoration: none;
 }
 
@@ -582,7 +582,6 @@ hr {
 button,
 input,
 textarea {
-	border: 2px solid #d4d0ba;
 	font-family: inherit;
 	padding: 5px;
 }
@@ -843,7 +842,7 @@ header .logo {
     width: 95%;
     position: relative;
     margin: 0 auto;
-    -webkit-filter: drop-shadow(0 0 2px #f7f5e7);
+    -webkit-filter: drop-shadow(0 0 2px $light-tan);
     -webkit-transform: translateZ(0);
 }
 
@@ -885,8 +884,8 @@ div.nav-menu > ul {
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-	background-color: $dark-background;
-	color: #fff;
+	background-color: $link-highlight;
+	color: $text-color;
 }
 
 .nav-menu .sub-menu,
@@ -913,7 +912,7 @@ div.nav-menu > ul {
 
 ul.nav-menu ul a,
 .nav-menu ul ul a {
-	color: #fff;
+	color: $light-tan;
 	margin: 0;
 	width: 200px;
 }
@@ -922,7 +921,7 @@ ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
-	background-color: #db572f;
+	background-color: $link-highlight;
 }
 
 ul.nav-menu li:hover > ul,
@@ -1416,7 +1415,7 @@ footer.entry-meta {
 
 /* Audio */
 .format-audio {
-	background-color: #db572f;
+	background-color: $link-highlight;
 }
 
 .format-audio .entry-title {
@@ -1710,7 +1709,7 @@ footer.entry-meta {
 
 /* Video */
 .format-video {
-	background-color: #db572f;
+	background-color: $link-highlight;
 }
 
 .format-video .entry-content a,
@@ -2283,7 +2282,7 @@ footer.entry-meta {
 
 /* Comment form */
 .comment-respond {
-	background-color: $light-tan;
+	background-color: rgba($light-tan, 0.5);
 	padding: 30px 0;
 }
 
@@ -2601,7 +2600,7 @@ footer.entry-meta {
 }
 
 .site-footer .widget a {
-	color: #e6402a;
+	color: $link-color;
 }
 
 .site-footer .widget-title,
@@ -2920,7 +2919,7 @@ footer.entry-meta {
 
 	.toggled-on .nav-menu li a:hover,
 	.toggled-on .nav-menu ul a:hover {
-		background-color: #db572f;
+		background-color: $link-highlight;
 		color: #fff;
 	}
 
