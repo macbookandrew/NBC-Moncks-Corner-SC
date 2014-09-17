@@ -2430,6 +2430,13 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 
+a.tel,
+a.tel:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: text;
+}
+
 .vcard p {
     margin-bottom: inherit;
 }

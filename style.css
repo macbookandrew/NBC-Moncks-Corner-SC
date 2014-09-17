@@ -2023,6 +2023,12 @@ footer.entry-meta {
  * 5.14 Specific content
  * ----------------------------------------------------------------------------
  */
+a.tel,
+a.tel:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: text; }
+
 .vcard p {
   margin-bottom: inherit; }
 
