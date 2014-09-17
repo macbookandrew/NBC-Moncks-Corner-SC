@@ -38,6 +38,9 @@
 				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</a>
+			<ul id="header-sidebar">
+                <?php dynamic_sidebar( 'theme-header' ); ?>
+            </ul>
 
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">

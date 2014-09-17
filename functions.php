@@ -9,4 +9,12 @@ function deregister_default_fonts() {
 }
 add_action( 'wp_enqueue_scripts', 'deregister_default_fonts', 100 );
 
-?>
+/* add sidebar in header */
+if ( function_exists( 'register_sidebar' ) ) {
+    $header_sidebar_args = array(
+        'name'          => 'Header Widget Area',
+        'id'            => 'theme-header',
+        'description'   => 'Appears in the header of the site.',
+    );
+    register_sidebar( $header_sidebar_args );
+}
