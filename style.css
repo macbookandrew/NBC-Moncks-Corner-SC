@@ -736,12 +736,10 @@ img.wp-smiley,
   .service-times .widgettitle {
     margin: 0 0 .3em;
     font-size: 1.5em; }
-  .service-times .adr {
-    margin-bottom: 0; }
-    .service-times .adr a {
-      color: inherit; }
-      .service-times .adr a:hover {
-        color: #ea9629; }
+  .service-times .adr a {
+    color: inherit; }
+    .service-times .adr a:hover {
+      color: #ea9629; }
 
 /**
  * 4.2 Navigation
@@ -2103,6 +2101,9 @@ a.tel:hover {
 
 .widget a:hover {
   color: #1a1414; }
+
+.widget address {
+  margin-bottom: 0; }
 
 /* Search widget */
 .search-form .search-submit {

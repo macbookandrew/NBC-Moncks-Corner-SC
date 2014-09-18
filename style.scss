@@ -865,13 +865,9 @@ img.wp-smiley,
         font-size: 1.5em;
     }
 
-    & .adr {
-        margin-bottom: 0;
-
-        & a {
-            color: inherit;
-            &:hover {color: $link-highlight;}
-        }
+    & .adr a {
+        color: inherit;
+        &:hover {color: $link-highlight;}
     }
 }
 
@@ -2533,6 +2529,10 @@ a.tel:hover {
 
 .widget a:hover {
 	color: $dark-background;
+}
+
+.widget address {
+    margin-bottom: 0;
 }
 
 /* Search widget */
