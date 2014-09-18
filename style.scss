@@ -792,7 +792,6 @@ img.wp-smiley,
 
 .site {
 	margin: 0 auto;
-	max-width: 1600px;
 	width: 100%;
 }
 
@@ -815,9 +814,13 @@ img.wp-smiley,
 
 .site-main,
 .site-footer {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba($light-tan, 0.3);
 }
 
+.content-area {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 /**
  * 4.0 Header
@@ -973,7 +976,6 @@ ul.nav-menu .focus > ul,
 .navbar {
 	background-color: $light-tan;
 	margin: 0 auto;
-	max-width: 1600px;
 	width: 100%;
 }
 
