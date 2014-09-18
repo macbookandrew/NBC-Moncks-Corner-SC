@@ -726,6 +726,7 @@ img.wp-smiley,
 
 .logo {
   width: 100%;
+  max-height: 280px;
   -webkit-filter: drop-shadow(0 0 2px #f7f5e7);
   -webkit-transform: translateZ(0); }
 
@@ -875,7 +876,7 @@ ul.nav-menu .focus > ul,
 .entry-summary,
 .entry-meta {
   margin: 0 auto;
-  max-width: 604px;
+  max-width: 1200px;
   width: 100%; }
 
 .sidebar .entry-header,
