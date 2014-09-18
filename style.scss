@@ -853,21 +853,26 @@ img.wp-smiley,
 .service-times {
     margin: 0;
     padding: 0;
-}
 
-.service-times .widget {
-    margin-bottom: 0;
-    background-color: inherit;
-    color: $light-tan;
-}
+    & .widget {
+        margin-bottom: 0;
+        background-color: inherit;
+        color: $light-tan;
+    }
 
-.service-times .widgettitle {
-    margin: 0 0 .3em;
-    font-size: 1.5em;
-}
+    & .widgettitle {
+        margin: 0 0 .3em;
+        font-size: 1.5em;
+    }
 
-.service-times .adr {
-    margin-bottom: 0;
+    & .adr {
+        margin-bottom: 0;
+
+        & a {
+            color: inherit;
+            &:hover {color: $link-highlight;}
+        }
+    }
 }
 
 /**

@@ -729,18 +729,19 @@ img.wp-smiley,
 .service-times {
   margin: 0;
   padding: 0; }
-
-.service-times .widget {
-  margin-bottom: 0;
-  background-color: inherit;
-  color: #f7f5e7; }
-
-.service-times .widgettitle {
-  margin: 0 0 .3em;
-  font-size: 1.5em; }
-
-.service-times .adr {
-  margin-bottom: 0; }
+  .service-times .widget {
+    margin-bottom: 0;
+    background-color: inherit;
+    color: #f7f5e7; }
+  .service-times .widgettitle {
+    margin: 0 0 .3em;
+    font-size: 1.5em; }
+  .service-times .adr {
+    margin-bottom: 0; }
+    .service-times .adr a {
+      color: inherit; }
+      .service-times .adr a:hover {
+        color: #ea9629; }
 
 /**
  * 4.2 Navigation
