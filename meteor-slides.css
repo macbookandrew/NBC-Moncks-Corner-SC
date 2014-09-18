@@ -11,6 +11,8 @@
 	http://www.jleuze.com/plugins/meteor-slides/customizing-the-stylesheet/
 */
 
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
 /* =Slideshow
 -------------------------------------------------------------- */
 
@@ -209,15 +211,16 @@ ul.meteor-nav li {
 -------------------------------------------------------------- */
 
 .meteor-slides p {
-    background: rgba(0,0,0,0.2);
     bottom: 0;
     color: #fff;
     left: 0;
-    line-height: 20px;
+    font-family: Pacifico, Rufina, Georgia, sans-serif;
+    font-size: 4em;
+    line-height: 1.5em;
     margin: 0;
-    padding: 2%;
+    padding: 2% 2% 3%;
     position: absolute;
-    text-align: center;
-    text-shadow: 1px 1px 1px #000;
-    width: 96%;
+    text-align: left;
+    text-shadow: 1px 1px 9px #000;
+    min-width: 50%;
 }
