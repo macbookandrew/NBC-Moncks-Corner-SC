@@ -33,14 +33,16 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-			    <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Northside-Baptist-Church-logo.svg" title="Northside Baptist Church" alt="Northside Baptist Church logo" />
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</a>
-			<ul id="header-sidebar">
-                <?php dynamic_sidebar( 'theme-header' ); ?>
-            </ul>
+            <div class="header-info">
+                <a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                    <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Northside-Baptist-Church-logo.svg" title="Northside Baptist Church" alt="Northside Baptist Church logo" />
+                    <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+                    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+                </a>
+                <ul id="header-sidebar" class="service-times">
+                    <?php dynamic_sidebar( 'theme-header' ); ?>
+                </ul><!-- #header-sidebar -->
+            </div><!-- .header-info -->
 
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">

@@ -15,6 +15,8 @@ if ( function_exists( 'register_sidebar' ) ) {
         'name'          => 'Header Widget Area',
         'id'            => 'theme-header',
         'description'   => 'Appears in the header of the site.',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
     );
     register_sidebar( $header_sidebar_args );
 }
