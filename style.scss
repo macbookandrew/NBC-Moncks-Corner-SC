@@ -18,7 +18,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /**
  * Table of Contents:
  *
- * 0.0 - Variables and imports
+ * 0.0 - Variables, mixins, imports
  * 1.0 - Reset
  * 2.0 - Repeatable Patterns
  * 3.0 - Basic Structure
@@ -58,6 +58,11 @@ $link-color:        #f4d761; // hyperlinks, etc.
 $link-highlight:    #ea9629; // highlighted hyperlinks
 $light-tan:         #f7f5e7; // navbar, a few links
 $dark-background:   #1a1414; // footer, navbar highlights, etc.
+
+
+@mixin dropshadow() {
+    box-shadow: 0 0 0.5em $dark-background;
+}
 
 
 @import url(//fonts.googleapis.com/css?family=Rufina:700|Sintony:400,700);
@@ -2474,27 +2479,10 @@ a.tel:hover {
     display: none;
 }
 
-.quick-link {
-    margin: 0 auto;
-
-    img {
-        margin: 0;
-        padding: 1em;
-
-        @media screen and (min-width: 850px) {
-            max-width: 400px;
-            width: 33%;
-        }
-
-        @media screen and (max-width: 850px) {
-            width: 50%;
-        }
-
-        @media screen and (max-width: 468px) {
-            width: 100%;
-        }
-    }
+.home-quick-link img {
+    box-shadow: 0 0 15px $dark-background;
 }
+
 
 /**
  * 6.0 Sidebar

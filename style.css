@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /**
  * Table of Contents:
  *
- * 0.0 - Variables and imports
+ * 0.0 - Variables, mixins, imports
  * 1.0 - Reset
  * 2.0 - Repeatable Patterns
  * 3.0 - Basic Structure
@@ -2054,21 +2054,8 @@ a.tel:hover {
 .widget .vcard .fn {
   display: none; }
 
-.quick-link {
-  margin: 0 auto; }
-  .quick-link img {
-    margin: 0;
-    padding: 1em; }
-    @media screen and (min-width: 850px) {
-      .quick-link img {
-        max-width: 400px;
-        width: 33%; } }
-    @media screen and (max-width: 850px) {
-      .quick-link img {
-        width: 50%; } }
-    @media screen and (max-width: 468px) {
-      .quick-link img {
-        width: 100%; } }
+.home-quick-link img {
+  box-shadow: 0 0 15px #1a1414; }
 
 /**
  * 6.0 Sidebar
