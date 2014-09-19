@@ -726,10 +726,16 @@ img.wp-smiley,
 
 .logo {
   width: 100%;
-  max-height: 280px;
-  -webkit-filter: drop-shadow(0 0 2px #f7f5e7);
-  -webkit-transform: translateZ(0); }
+  max-height: 280px; }
 
+@media (min-width: 500px) {
+  .logo {
+    -webkit-filter: drop-shadow(0 0 2px #f7f5e7);
+    -webkit-transform: translateZ(0); } }
+@media (max-width: 499px) {
+  .logo {
+    -webkit-filter: drop-shadow(0 0 2px #1a1414);
+    -webkit-transform: translateZ(0); } }
 .service-times {
   margin: 0;
   padding: 0; }
