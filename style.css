@@ -2054,7 +2054,15 @@ a.tel:hover {
 .widget .vcard .fn {
   display: none; }
 
-.home-quick-link img {
+.meteor-buttons {
+  text-align: center; }
+
+.meteor-slides .meteor-buttons a {
+  float: none;
+  display: inline-block; }
+
+.entry-content img,
+.meteor-clip {
   box-shadow: 0 0 15px #1a1414; }
 
 /**
