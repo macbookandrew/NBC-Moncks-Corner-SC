@@ -2696,6 +2696,28 @@ a.tel:hover {
 	}
 }
 
+@media (max-width: 1200px) {
+	#content .entry-header,
+	#content .entry-content,
+	#content .entry-summary,
+	#content footer.entry-meta,
+	#content .featured-gallery,
+	.search.sidebar .page-content,
+	.blog.sidebar .page-content,
+	.sidebar .post-navigation .nav-links,
+	.paging-navigation .nav-links,
+	#content .author-info,
+	.comments-area .comments-title,
+	.comments-area .comment-list,
+	.comments-area .comment-navigation,
+	.comment-respond,
+	.sidebar .site-info,
+	.sidebar .paging-navigation .nav-links {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
 @media (max-width: 1069px) {
 	.sidebar img.alignleft,
 	.sidebar .wp-caption.alignleft {
@@ -2903,26 +2925,6 @@ a.tel:hover {
 @media (max-width: 643px) {
 	.site-title {
 		font-size: 30px;
-	}
-
-	#content .entry-header,
-	#content .entry-content,
-	#content .entry-summary,
-	#content footer.entry-meta,
-	#content .featured-gallery,
-	.search.sidebar .page-content,
-	.blog.sidebar .page-content,
-	.sidebar .post-navigation .nav-links,
-	.paging-navigation .nav-links,
-	#content .author-info,
-	.comments-area .comments-title,
-	.comments-area .comment-list,
-	.comments-area .comment-navigation,
-	.comment-respond,
-	.sidebar .site-info,
-	.sidebar .paging-navigation .nav-links {
-		padding-left: 20px;
-		padding-right: 20px;
 	}
 
 	#content .format-status .entry-content,
