@@ -2065,6 +2065,15 @@ a.tel:hover {
 .meteor-clip {
   box-shadow: 0 0 15px #1a1414; }
 
+.home-quick-link a {
+  background-color: black;
+  display: block; }
+  .home-quick-link a:hover img {
+    opacity: .6; }
+.home-quick-link img {
+  -webkit-transition: opacity 0.15s ease-in-out;
+          transition: opacity 0.15s ease-in-out; }
+
 /**
  * 6.0 Sidebar
  * ----------------------------------------------------------------------------

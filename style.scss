@@ -2493,6 +2493,20 @@ a.tel:hover {
     box-shadow: 0 0 15px $dark-background;
 }
 
+.home-quick-link {
+    a {
+        background-color: black;
+        display: block;
+
+        &:hover img {
+            opacity: .6;
+        }
+    }
+
+    img {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
 
 /**
  * 6.0 Sidebar
