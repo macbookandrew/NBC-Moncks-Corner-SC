@@ -7,19 +7,26 @@
         display: table;
         clear: both;
     }
+
+    .flexbox & {
+        display: flex;
+        @media (max-width: 1250px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
 }
 
 .home-quick-link {
 	padding: 1em;
     max-width: 240px;
-// TODO: add modernizr flexbox detection and justify if possible
 
-    @media screen and (min-width: 900px) {
+    @media (min-width: 900px) {
         width: 33%;
         float: left;
     }
 
-    @media screen and (max-width: 500px) {
+    @media (max-width: 500px) {
         display: block;
         width: 100%;
         margin: 0 auto;
@@ -33,7 +40,7 @@
         }
     }
 
-    @media screen and (min-width: 500px) and (max-width: 899px) {
+    @media (min-width: 500px) and (max-width: 1010px) {
         width: 50%;
         float: left;
     }
