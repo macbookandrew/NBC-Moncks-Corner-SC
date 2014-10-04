@@ -2250,6 +2250,29 @@ a.tel:hover {
   width: device-width; }
 @viewport {
   width: device-width; }
+.site-header,
+.site-main,
+.site-footer {
+  margin: 0 auto; }
+  @media (max-width: 1249px) and (min-width: 1010px) {
+    .site-header,
+    .site-main,
+    .site-footer {
+      width: 960px; } }
+  @media (max-width: 1009px) and (min-width: 818px) {
+    .site-header,
+    .site-main,
+    .site-footer {
+      width: 768px; } }
+  @media (max-width: 817px) and (min-width: 690px) {
+    .site-header,
+    .site-main,
+    .site-footer {
+      width: 640px; } }
+
+@media (max-width: 1249px) {
+  .site-main {
+    padding: 0 2em; } }
 @media (max-width: 1599px) {
   .site {
     border: 0; } }

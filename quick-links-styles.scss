@@ -12,6 +12,7 @@
 .home-quick-link {
 	padding: 1em;
     max-width: 240px;
+// TODO: add modernizr flexbox detection and justify if possible
 
     @media screen and (min-width: 900px) {
         width: 33%;

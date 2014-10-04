@@ -2730,6 +2730,23 @@ a.tel:hover {
 	width: device-width;
 }
 
+// adaptive structure as requested by client
+.site-header,
+.site-main,
+.site-footer {
+    margin: 0 auto;
+    @media (max-width: 1249px) and (min-width: 1010px) { width: 960px; }
+    @media (max-width: 1009px) and (min-width:  818px) { width: 768px; }
+    @media (max-width:  817px) and (min-width:  690px) { width: 640px; }
+}
+
+@media (max-width: 1249px) {
+    .site-main {
+        padding: 0 2em;
+    }
+}
+
+//other media queries
 @media (max-width: 1599px) {
 	.site {
 		border: 0;
