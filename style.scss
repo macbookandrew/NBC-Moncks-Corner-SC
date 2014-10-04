@@ -59,6 +59,7 @@ $link-highlight:    #ea9629; // highlighted hyperlinks
 $light-tan:         #f7f5e7; // navbar, a few links
 $dark-background:   #1a1414; // footer, navbar highlights, etc.
 
+$border-radius:     8px;
 
 @mixin dropshadow() {
     box-shadow: 0 0 0.5em $dark-background;
@@ -354,6 +355,7 @@ img {
 	-ms-interpolation-mode: bicubic;
 	border: 0;
 	vertical-align: middle;
+    border-radius: $border-radius;
 }
 
 svg:not(:root) {
@@ -854,7 +856,7 @@ img.wp-smiley,
 
 .logo {
     width: 100%;
-    max-height: 280px;
+    max-height: 200px;
 }
 
 @media (min-width: 500px) {
@@ -2479,6 +2481,10 @@ a.tel:hover {
     display: none;
 }
 
+.meteor-slides .meteor-clip {
+    border-radius: $border-radius;
+}
+
 .meteor-buttons {
     text-align: center;
 }
@@ -2497,6 +2503,7 @@ a.tel:hover {
     a {
         background-color: black;
         display: block;
+        border-radius: $border-radius;
 
         &:hover img {
             opacity: .6;
