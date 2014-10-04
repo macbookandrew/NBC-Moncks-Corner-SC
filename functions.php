@@ -20,9 +20,3 @@ if ( function_exists( 'register_sidebar' ) ) {
     );
     register_sidebar( $header_sidebar_args );
 }
-
-// register modernizr custom build
-function register_modernizr() {
-    wp_enqueue_script( 'modernizr', get_stylesheet_directory_uri() . '/js/modernizr.custom.17706.js' );
-}
-add_action( 'wp_enqueue_scripts', 'register_modernizr' );
