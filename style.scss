@@ -65,7 +65,6 @@ $border-radius:     8px;
     box-shadow: 0 0 0.5em $dark-background;
 }
 
-
 @import url(//fonts.googleapis.com/css?family=Rufina:700|Sintony:400,700);
 
 /**
@@ -1043,7 +1042,8 @@ ul.nav-menu .focus > ul,
 .entry-header,
 .entry-content,
 .entry-summary,
-.entry-meta {
+.entry-meta,
+.missionary-archive {
 	margin: 0 auto;
 	max-width: 1200px;
 	width: 100%;
@@ -1074,6 +1074,10 @@ ul.nav-menu .focus > ul,
 
 .entry-header {
 	margin-bottom: 30px;
+}
+
+.post-type-archive-missionary .entry-header {
+    padding-top: 40px;
 }
 
 .entry-title {
@@ -2512,6 +2516,57 @@ a.tel:hover {
 
     img {
         transition: opacity 0.15s ease-in-out;
+    }
+}
+
+.missionary-archive {
+	width: 100%;
+	padding: 1em 0;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .flexbox & {
+        display: flex;
+        @media (max-width: 1250px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
+.type-missionary {
+	padding: 1em;
+
+    .flag-webicon {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    h2, h3 { font-weight: normal; }
+
+    @media (min-width: 900px) {
+        width: 33%;
+        float: left;
+    }
+
+    @media (max-width: 500px) {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+
+        a {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 500px) and (max-width: 1010px) {
+        width: 50%;
+        float: left;
     }
 }
 

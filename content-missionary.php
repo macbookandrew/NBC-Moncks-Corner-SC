@@ -12,7 +12,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() ) : ?>
+		<?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() && is_single() ) : ?>
 		<div class="entry-thumbnail">
 			<?php the_post_thumbnail(); ?>
 		</div>
@@ -20,10 +20,6 @@
 
 		<?php if ( is_single() ) : ?>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-		<?php else : ?>
-		<h1 class="entry-title">
-			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-		</h1>
 		<?php endif; // is_single() ?>
 
 		<div class="entry-meta">
@@ -36,6 +32,18 @@
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
+	<?php elseif ( ! is_single() ) : // Missionary archive page
+        $category_array = get_the_terms( get_the_ID(), 'country' );
+        foreach ($category_array as $this_category) {
+            $category_name = $this_category->name;
+        } ?>
+    <a href="<?php the_permalink(); ?>" class"flag-link" rel="bookmark">
+        <div class="flag-webicon <?php echo lcfirst($category_name); ?>"></div><!-- .flag-webicon -->
+    </a>
+		<h2 class="entry-title missionary">
+			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+		</h2>
+        <h3>Missionaries to <?php echo $category_name; ?></h3>
 	<?php else : ?>
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?>
