@@ -29,6 +29,35 @@ $flag-icon-url: '../images/flags/'; // relative to this css file
     height: 256px;
 }
 
+/* custom icons */
+.no-svg .flag-webicon.bible-translation {background: url($flag-icon-url + "bible-translation.png");}
+.no-svg .flag-webicon.bible-translation.xsmall {background: url($flag-icon-url + "bible-translation-xs.png");}
+.no-svg .flag-webicon.bible-translation.small {background: url($flag-icon-url + "bible-translation-s.png");}
+.no-svg .flag-webicon.bible-translation.large {background: url($flag-icon-url + "bible-translation-l.png");}
+.no-svg .flag-webicon.bible-translation.xlarge {background: url($flag-icon-url + "bible-translation-xl.png");}
+.svg .flag-webicon.bible-translation {background: url($flag-icon-url + "bible-translation.svg");}
+
+.no-svg .flag-webicon.deaf-ministry {background: url($flag-icon-url + "deaf-ministry.png");}
+.no-svg .flag-webicon.deaf-ministry.xsmall {background: url($flag-icon-url + "deaf-ministry-xs.png");}
+.no-svg .flag-webicon.deaf-ministry.small {background: url($flag-icon-url + "deaf-ministry-s.png");}
+.no-svg .flag-webicon.deaf-ministry.large {background: url($flag-icon-url + "deaf-ministry-l.png");}
+.no-svg .flag-webicon.deaf-ministry.xlarge {background: url($flag-icon-url + "deaf-ministry-xl.png");}
+.svg .flag-webicon.deaf-ministry {background: url($flag-icon-url + "deaf-ministry.svg");}
+
+.no-svg .flag-webicon.evangelism {background: url($flag-icon-url + "evangelism.png");}
+.no-svg .flag-webicon.evangelism.xsmall {background: url($flag-icon-url + "evangelism-xs.png");}
+.no-svg .flag-webicon.evangelism.small {background: url($flag-icon-url + "evangelism-s.png");}
+.no-svg .flag-webicon.evangelism.large {background: url($flag-icon-url + "evangelism-l.png");}
+.no-svg .flag-webicon.evangelism.xlarge {background: url($flag-icon-url + "evangelism-xl.png");}
+.svg .flag-webicon.evangelism {background: url($flag-icon-url + "evangelism.svg");}
+
+.no-svg .flag-webicon.us-military {background: url($flag-icon-url + "us-military.png");}
+.no-svg .flag-webicon.us-military.xsmall {background: url($flag-icon-url + "us-military-xs.png");}
+.no-svg .flag-webicon.us-military.small {background: url($flag-icon-url + "us-military-s.png");}
+.no-svg .flag-webicon.us-military.large {background: url($flag-icon-url + "us-military-l.png");}
+.no-svg .flag-webicon.us-military.xlarge {background: url($flag-icon-url + "us-military-xl.png");}
+.svg .flag-webicon.us-military {background: url($flag-icon-url + "us-military.svg");}
+
 
 /* afghanistan */
 .no-svg .flag-webicon.afghanistan {background: url($flag-icon-url + "afghanistan.png");}
