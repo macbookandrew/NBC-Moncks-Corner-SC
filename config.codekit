@@ -1240,6 +1240,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/flags\/bible-translation-l.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5288,
+		"inputAbbreviatedPath": "\/images\/flags\/bible-translation-l.png",
+		"outputAbbreviatedPath": "\/images\/flags\/bible-translation-l.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/bible-translation-s.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 937,
+		"inputAbbreviatedPath": "\/images\/flags\/bible-translation-s.png",
+		"outputAbbreviatedPath": "\/images\/flags\/bible-translation-s.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/bible-translation-xl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12261,
+		"inputAbbreviatedPath": "\/images\/flags\/bible-translation-xl.png",
+		"outputAbbreviatedPath": "\/images\/flags\/bible-translation-xl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/bible-translation-xs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 467,
+		"inputAbbreviatedPath": "\/images\/flags\/bible-translation-xs.png",
+		"outputAbbreviatedPath": "\/images\/flags\/bible-translation-xs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/bible-translation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2191,
+		"inputAbbreviatedPath": "\/images\/flags\/bible-translation.png",
+		"outputAbbreviatedPath": "\/images\/flags\/bible-translation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/flags\/bolivia-l.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2505,6 +2560,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/flags\/deaf-ministry-l.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3612,
+		"inputAbbreviatedPath": "\/images\/flags\/deaf-ministry-l.png",
+		"outputAbbreviatedPath": "\/images\/flags\/deaf-ministry-l.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/deaf-ministry-s.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 776,
+		"inputAbbreviatedPath": "\/images\/flags\/deaf-ministry-s.png",
+		"outputAbbreviatedPath": "\/images\/flags\/deaf-ministry-s.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/deaf-ministry-xl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7994,
+		"inputAbbreviatedPath": "\/images\/flags\/deaf-ministry-xl.png",
+		"outputAbbreviatedPath": "\/images\/flags\/deaf-ministry-xl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/deaf-ministry-xs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384,
+		"inputAbbreviatedPath": "\/images\/flags\/deaf-ministry-xs.png",
+		"outputAbbreviatedPath": "\/images\/flags\/deaf-ministry-xs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/deaf-ministry.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1613,
+		"inputAbbreviatedPath": "\/images\/flags\/deaf-ministry.png",
+		"outputAbbreviatedPath": "\/images\/flags\/deaf-ministry.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/flags\/democratic-republic-of-the-congo-l.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3216,6 +3326,61 @@
 		"initialSize": 1458,
 		"inputAbbreviatedPath": "\/images\/flags\/ethiopia.png",
 		"outputAbbreviatedPath": "\/images\/flags\/ethiopia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/evangelism-l.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3236,
+		"inputAbbreviatedPath": "\/images\/flags\/evangelism-l.png",
+		"outputAbbreviatedPath": "\/images\/flags\/evangelism-l.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/evangelism-s.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 722,
+		"inputAbbreviatedPath": "\/images\/flags\/evangelism-s.png",
+		"outputAbbreviatedPath": "\/images\/flags\/evangelism-s.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/evangelism-xl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6904,
+		"inputAbbreviatedPath": "\/images\/flags\/evangelism-xl.png",
+		"outputAbbreviatedPath": "\/images\/flags\/evangelism-xl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/evangelism-xs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 348,
+		"inputAbbreviatedPath": "\/images\/flags\/evangelism-xs.png",
+		"outputAbbreviatedPath": "\/images\/flags\/evangelism-xs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/evangelism.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1515,
+		"inputAbbreviatedPath": "\/images\/flags\/evangelism.png",
+		"outputAbbreviatedPath": "\/images\/flags\/evangelism.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10465,6 +10630,61 @@
 		"initialSize": 1436,
 		"inputAbbreviatedPath": "\/images\/flags\/uruguay.png",
 		"outputAbbreviatedPath": "\/images\/flags\/uruguay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/us-military-l.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8045,
+		"inputAbbreviatedPath": "\/images\/flags\/us-military-l.png",
+		"outputAbbreviatedPath": "\/images\/flags\/us-military-l.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/us-military-s.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2108,
+		"inputAbbreviatedPath": "\/images\/flags\/us-military-s.png",
+		"outputAbbreviatedPath": "\/images\/flags\/us-military-s.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/us-military-xl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16798,
+		"inputAbbreviatedPath": "\/images\/flags\/us-military-xl.png",
+		"outputAbbreviatedPath": "\/images\/flags\/us-military-xl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/us-military-xs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1363,
+		"inputAbbreviatedPath": "\/images\/flags\/us-military-xs.png",
+		"outputAbbreviatedPath": "\/images\/flags\/us-military-xs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flags\/us-military.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4051,
+		"inputAbbreviatedPath": "\/images\/flags\/us-military.png",
+		"outputAbbreviatedPath": "\/images\/flags\/us-military.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
