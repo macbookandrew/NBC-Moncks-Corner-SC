@@ -38,7 +38,7 @@
             $category_name = $this_category->name;
         } ?>
     <a href="<?php the_permalink(); ?>" class"flag-link" rel="bookmark">
-        <div class="flag-webicon <?php echo lcfirst($category_name); ?>"></div><!-- .flag-webicon -->
+        <div class="flag-webicon <?php echo strtolower(str_replace( ' ', '-', $category_name ) ); ?>"></div><!-- .flag-webicon -->
     </a>
 		<h2 class="entry-title missionary">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
