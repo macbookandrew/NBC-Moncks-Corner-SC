@@ -88,7 +88,7 @@ function missionary_country() {
 // Hook into the 'init' action
 add_action( 'init', 'missionary_country', 0 );
 
-// add Modernizr: flexbox, flexbox legacy, svg
+// add Modernizr: svg
 add_action( 'wp_enqueue_scripts', 'enqueue_modernizr' );
 function enqueue_modernizr() {
     wp_enqueue_script( 'modernizr-svg', get_stylesheet_directory_uri() . '/js/modernizr.svg.js' );
