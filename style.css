@@ -2104,7 +2104,7 @@ a.tel:hover {
   padding: 1em; }
   .archive .type-missionary .flag-webicon {
     width: 100%;
-    min-height: 200px;
+    min-height: 140px;
     border-radius: 8px;
     background-size: cover; }
   .archive .type-missionary h2, .archive .type-missionary h3 {
