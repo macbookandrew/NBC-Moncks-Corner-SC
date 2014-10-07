@@ -44,6 +44,7 @@
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h2>
         <h3>Missionaries to <?php echo $category_name; ?></h3>
+    <?php // end Missionary archive page ?>
 	<?php else : ?>
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?>

@@ -34,7 +34,7 @@ function create_missionary_post() {
 			),
             'taxonomies' => array( 'country' ),
 			'labels' => array(
-				'name' => __( 'Missionary' ),
+				'name' => __( 'Missionaries' ),
 				'singular_name' => __( 'Missionary' ),
 				'add_new_item' => __( 'Add New Missionary' ),
 				'edit_item' => __( 'Edit Missionary' ),
