@@ -40,7 +40,7 @@ function create_missionary_post() {
 		'not_found_in_trash'  => 'Not found in Trash',
 	);
 	$rewrite = array(
-		'slug'                => 'ministries/missions/',
+		'slug'                => 'ministries/missions',
 		'with_front'          => true,
 		'pages'               => true,
 		'feeds'               => true,
