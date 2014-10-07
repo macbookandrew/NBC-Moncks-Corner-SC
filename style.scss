@@ -2530,10 +2530,8 @@ a.tel:hover {
 
     .flexbox & {
         display: flex;
-        @media (max-width: 1250px) {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -2549,8 +2547,18 @@ a.tel:hover {
 
     h2, h3 { font-weight: normal; }
 
-    @media (min-width: 900px) {
+    @media (min-width: 1250px) {
+        width: 25%;
+        float: left;
+    }
+
+    @media (min-width: 818px) and (max-width: 1249px) {
         width: 33%;
+        float: left;
+    }
+
+    @media (min-width: 500px) and (max-width: 817px) {
+        width: 50%;
         float: left;
     }
 

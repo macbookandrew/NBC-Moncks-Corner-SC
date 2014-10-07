@@ -2092,15 +2092,13 @@ a.tel:hover {
   .flexbox .missionary-archive {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
-    @media (max-width: 1250px) {
-      .flexbox .missionary-archive {
-        -webkit-flex-wrap: wrap;
-            -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-        -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center; } }
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 .archive .type-missionary {
   padding: 1em; }
@@ -2111,9 +2109,17 @@ a.tel:hover {
     background-size: cover; }
   .archive .type-missionary h2, .archive .type-missionary h3 {
     font-weight: normal; }
-  @media (min-width: 900px) {
+  @media (min-width: 1250px) {
+    .archive .type-missionary {
+      width: 25%;
+      float: left; } }
+  @media (min-width: 818px) and (max-width: 1249px) {
     .archive .type-missionary {
       width: 33%;
+      float: left; } }
+  @media (min-width: 500px) and (max-width: 817px) {
+    .archive .type-missionary {
+      width: 50%;
       float: left; } }
   @media (max-width: 500px) {
     .archive .type-missionary {
