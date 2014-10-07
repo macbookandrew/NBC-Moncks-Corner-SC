@@ -11,7 +11,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <?php endif; // is_single() ?>
+    <?php if ( is_single() ) : ?>
         <header class="entry-header">
             <?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() && is_single() ) : ?>
             <div class="entry-thumbnail">
