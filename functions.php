@@ -44,7 +44,7 @@ function create_missionary_post() {
 			),
 			'public' => true,
 			'has_archive' => true,
-			'rewrite' => array( 'slug' => 'ministries/missions/missionaries', 'with_front' => 'false' ),
+			'rewrite' => array( 'slug' => 'ministries/missions', 'with_front' => 'false' ),
 			'capability_type' => 'edit_post',
             'menu_icon' => 'dashicons-businessman'
 		)
