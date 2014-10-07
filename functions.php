@@ -23,34 +23,54 @@ if ( function_exists( 'register_sidebar' ) ) {
 
 // Add missionaries custom post type
 function create_missionary_post() {
-	register_post_type( 'missionary',
-		array(
-			'supports' => array(
-				'title',
-				'editor',
-				'revisions',
-				'thumbnail',
-				'author'
-			),
-            'taxonomies' => array( 'country' ),
-			'labels' => array(
-				'name' => __( 'Missionaries' ),
-				'singular_name' => __( 'Missionary' ),
-				'add_new_item' => __( 'Add New Missionary' ),
-				'edit_item' => __( 'Edit Missionary' ),
-				'new_item' => __( 'New Missionary' ),
-				'view_item' => __( 'View Missionary' ),
-				'search_items' => __( 'Search Missionaries' )
-			),
-			'public' => true,
-			'has_archive' => true,
-			'rewrite' => array( 'slug' => 'ministries/missions', 'with_front' => 'false' ),
-			'capability_type' => 'edit_post',
-            'menu_icon' => 'dashicons-businessman'
-		)
+
+	$labels = array(
+		'name'                => 'Missionaries',
+		'singular_name'       => 'Missionary',
+		'menu_name'           => 'Missionaries',
+		'parent_item_colon'   => 'Parent Missionary:',
+		'all_items'           => 'All Missionaries',
+		'view_item'           => 'View Missionary',
+		'add_new_item'        => 'Add New Missionary',
+		'add_new'             => 'Add New',
+		'edit_item'           => 'Edit Missionary',
+		'update_item'         => 'Update Missionary',
+		'search_items'        => 'Search Missionary',
+		'not_found'           => 'Not found',
+		'not_found_in_trash'  => 'Not found in Trash',
 	);
+	$rewrite = array(
+		'slug'                => 'ministries/missions/',
+		'with_front'          => true,
+		'pages'               => true,
+		'feeds'               => true,
+	);
+	$args = array(
+		'label'               => 'missionary',
+		'description'         => 'Missionaries',
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+		'taxonomies'          => array( 'country' ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 25,
+		'menu_icon'           => 'dashicons-businessman',
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'rewrite'             => $rewrite,
+		'capability_type'     => 'page',
+	);
+	register_post_type( 'missionary', $args );
+
 }
-add_action( 'init', 'create_missionary_post' );
+// Hook into the 'init' action
+add_action( 'init', 'create_missionary_post', 0 );
 
 // add country taxonomy
 function missionary_country() {
