@@ -1651,7 +1651,6 @@ footer.entry-meta {
   text-decoration: none; }
 
 .post-navigation {
-  background-color: #fff;
   color: #ca3c08;
   font-size: 20px;
   font-style: italic;
@@ -2103,27 +2102,29 @@ a.tel:hover {
             -ms-flex-pack: center;
                 justify-content: center; } }
 
-.type-missionary {
+.archive .type-missionary {
   padding: 1em; }
-  .type-missionary .flag-webicon {
+  .archive .type-missionary .flag-webicon {
     width: 100%;
-    min-height: 200px; }
-  .type-missionary h2, .type-missionary h3 {
+    min-height: 200px;
+    border-radius: 8px;
+    background-size: cover; }
+  .archive .type-missionary h2, .archive .type-missionary h3 {
     font-weight: normal; }
   @media (min-width: 900px) {
-    .type-missionary {
+    .archive .type-missionary {
       width: 33%;
       float: left; } }
   @media (max-width: 500px) {
-    .type-missionary {
+    .archive .type-missionary {
       display: block;
       width: 100%;
       margin: 0 auto; }
-      .type-missionary a {
+      .archive .type-missionary a {
         display: block;
         width: 100%; } }
   @media (min-width: 500px) and (max-width: 1010px) {
-    .type-missionary {
+    .archive .type-missionary {
       width: 50%;
       float: left; } }
 

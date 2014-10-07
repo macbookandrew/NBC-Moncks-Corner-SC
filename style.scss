@@ -1987,7 +1987,6 @@ footer.entry-meta {
 }
 
 .post-navigation {
-	background-color: #fff;
 	color: #ca3c08;
 	font-size: 20px;
 	font-style: italic;
@@ -2538,12 +2537,14 @@ a.tel:hover {
     }
 }
 
-.type-missionary {
+.archive .type-missionary {
 	padding: 1em;
 
     .flag-webicon {
         width: 100%;
         min-height: 200px;
+        border-radius: $border-radius;
+        background-size: cover;
     }
 
     h2, h3 { font-weight: normal; }
