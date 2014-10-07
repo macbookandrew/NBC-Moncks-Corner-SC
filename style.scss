@@ -2548,16 +2548,21 @@ a.tel:hover {
     h2, h3 { font-weight: normal; }
 
     @media (min-width: 1250px) {
-        width: 25%;
+        width: 20%;
         float: left;
     }
 
     @media (min-width: 818px) and (max-width: 1249px) {
+        width: 25%;
+        float: left;
+    }
+
+    @media (min-width: 690px) and (max-width: 817px) {
         width: 33%;
         float: left;
     }
 
-    @media (min-width: 500px) and (max-width: 817px) {
+    @media (min-width: 500px) and (max-width: 689px) {
         width: 50%;
         float: left;
     }
