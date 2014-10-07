@@ -2543,6 +2543,7 @@ a.tel:hover {
         min-height: 140px;
         border-radius: $border-radius;
         background-size: cover;
+        @include dropshadow();
     }
 
     h2, h3 { font-weight: normal; }
