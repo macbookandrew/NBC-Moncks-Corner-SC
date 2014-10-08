@@ -2109,7 +2109,13 @@ a.tel:hover {
     background-size: cover;
     box-shadow: 0 0 0.5em #1a1414; }
   .archive .type-missionary h2, .archive .type-missionary h3 {
-    font-weight: normal; }
+    font-weight: normal;
+    text-align: center; }
+  .archive .type-missionary h2 {
+    font-size: 1.5em; }
+  .archive .type-missionary h3 {
+    font-size: 1em;
+    margin-top: 0; }
   @media (min-width: 1250px) {
     .archive .type-missionary {
       width: 20%;
@@ -2131,6 +2137,8 @@ a.tel:hover {
       display: block;
       width: 100%;
       margin: 0 auto; }
+      .archive .type-missionary h2, .archive .type-missionary h3 {
+        font-size: 1em; }
       .archive .type-missionary a {
         display: block;
         width: 100%; } }
@@ -2796,5 +2804,4 @@ a.tel:hover {
   .comment-reply-link,
   .comment-reply-login {
     color: #333; } }
-
 /*# sourceMappingURL=style.css.map */
