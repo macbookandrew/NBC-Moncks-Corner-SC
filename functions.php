@@ -57,7 +57,6 @@ function create_missionary_post() {
 		'show_in_menu'        => true,
 		'show_in_nav_menus'   => true,
 		'show_in_admin_bar'   => true,
-		'menu_position'       => 25,
 		'menu_icon'           => 'dashicons-businessman',
 		'can_export'          => true,
 		'has_archive'         => true,
