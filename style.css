@@ -128,7 +128,6 @@ a:hover {
 .fancy-header {
   font-family: Pacifico, Rufina, Georgia, serif;
   color: white;
-  margin-top: 0;
   text-shadow: 1px 1px 9px #000; }
 
 h1,
@@ -1116,26 +1115,32 @@ footer.entry-meta {
 
 .gallery-columns-4 .gallery-item {
   max-width: 23%;
+  max-width: -webkit-calc(25% - 4px);
   max-width: calc(25% - 4px); }
 
 .gallery-columns-5 .gallery-item {
   max-width: 19%;
+  max-width: -webkit-calc(20% - 4px);
   max-width: calc(20% - 4px); }
 
 .gallery-columns-6 .gallery-item {
   max-width: 15%;
+  max-width: -webkit-calc(16.7% - 4px);
   max-width: calc(16.7% - 4px); }
 
 .gallery-columns-7 .gallery-item {
   max-width: 13%;
+  max-width: -webkit-calc(14.28% - 4px);
   max-width: calc(14.28% - 4px); }
 
 .gallery-columns-8 .gallery-item {
   max-width: 11%;
+  max-width: -webkit-calc(12.5% - 4px);
   max-width: calc(12.5% - 4px); }
 
 .gallery-columns-9 .gallery-item {
   max-width: 9%;
+  max-width: -webkit-calc(11.1% - 4px);
   max-width: calc(11.1% - 4px); }
 
 .gallery-columns-1 .gallery-item:nth-of-type(1n),
@@ -1249,6 +1254,7 @@ footer.entry-meta {
   float: right;
   padding-left: 35px;
   width: 80%;
+  width: -webkit-calc(100% - 85px);
   width: calc(100% - 85px); }
 
 .format-audio .wp-audio-shortcode {
@@ -1898,6 +1904,7 @@ footer.entry-meta {
 .comment-list .reply {
   float: right;
   width: 79%;
+  width: -webkit-calc(100% - 124px);
   width: calc(100% - 124px);
   word-wrap: break-word; }
 
@@ -2066,24 +2073,29 @@ a.tel:hover {
 .widget .vcard .fn {
   display: none; }
 
-.home-top-row {
-  /* TODO: find breakpoint to stack rather than side-by-side */ }
-  .flexbox .home-top-row {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
+.flexbox .home-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  @media (max-width: 999px) {
+    .flexbox .home-top-row {
+      flex-wrap: wrap; }
+      .flexbox .home-top-row .meteor-slides.home {
+        margin: 0 auto;
+        padding: 0 1em; } }
+@media (min-width: 1000px) {
+  .home-top-row .fancy-header {
+    margin-top: 0; }
   .home-top-row .meteor-slides {
     width: 63%; }
   .home-top-row .entry-content {
-    width: 30%; }
-  .home-top-row .wp-caption-text {
-    font-size: 12px; }
+    width: 30%; } }
+@media (max-width: 1100px) and (min-width: 1000px) {
+  .home-top-row figure.alignright {
+    float: none;
+    margin: 0 auto; } }
+.home-top-row .wp-caption-text {
+  font-size: 12px; }
 
 .meteor-slides .meteor-clip {
   border-radius: 8px; }
@@ -2109,8 +2121,7 @@ a.tel:hover {
   .home-quick-link a:hover img {
     opacity: .6; }
 .home-quick-link img {
-  -webkit-transition: opacity 0.15s ease-in-out;
-          transition: opacity 0.15s ease-in-out; }
+  transition: opacity 0.15s ease-in-out; }
 
 .missionary-archive {
   width: 100%;
@@ -2120,15 +2131,9 @@ a.tel:hover {
     display: table;
     clear: both; }
   .flexbox .missionary-archive {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    flex-wrap: wrap;
+    justify-content: center; }
 
 .archive .type-missionary {
   padding: 1em; }
@@ -2639,11 +2644,13 @@ a.tel:hover {
   .comment-content,
   .comment-list .reply {
     width: 70%;
+    width: -webkit-calc(100% - 104px);
     width: calc(100% - 104px); }
 
   .comment-form input[type="text"],
   .comment-form input[type="email"],
   .comment-form input[type="url"] {
+    width: -webkit-calc(100% - 120px);
     width: calc(100% - 120px); }
 
   .comment-form textarea {
@@ -2668,6 +2675,7 @@ a.tel:hover {
   .gallery-columns-2.gallery-size-thumbnail .gallery-item {
     max-width: none;
     width: 49%;
+    width: -webkit-calc(50% - 4px);
     width: calc(50% - 4px); }
 
   .gallery-columns-1.gallery-size-medium,
@@ -2681,6 +2689,7 @@ a.tel:hover {
   .gallery-columns-1.gallery-size-thumbnail .gallery-item {
     text-align: center;
     width: 98%;
+    width: -webkit-calc(100% - 4px);
     width: calc(100% - 4px); }
 
   .gallery-columns-3 .gallery-item:nth-of-type(3n),
