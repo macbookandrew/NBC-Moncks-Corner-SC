@@ -2125,9 +2125,10 @@ a.tel:hover {
   text-align: center; }
 
 .entry-content img,
+.wp-post-image,
 .meteor-clip,
 .home-quick-link img {
-  box-shadow: 0 0 15px #1a1414; }
+  box-shadow: 0 0 0.5em #1a1414; }
 
 .home-quick-link a {
   background-color: black;

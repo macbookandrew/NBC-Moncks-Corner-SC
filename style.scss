@@ -2566,9 +2566,10 @@ a.tel:hover {
 
 
 .entry-content img,
+.wp-post-image,
 .meteor-clip,
 .home-quick-link img {
-    box-shadow: 0 0 15px $dark-background;
+    @include dropshadow();
 }
 
 .home-quick-link {
