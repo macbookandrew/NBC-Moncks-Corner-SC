@@ -856,10 +856,7 @@ img.wp-smiley,
 }
 
 .home-link {
-    @media (min-width: 768px) {
-        position: absolute;
-        z-index: -1;
-    }
+    @media (min-width: 768px) { position: absolute; }
     @media (max-width: 767px) { position: relative; }
     margin: 0 auto;
 }
@@ -1004,6 +1001,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
+    position: relative;
 	background-color: rgba($light-tan, 0.7);
 	margin: 0 auto;
 	width: 100%;
