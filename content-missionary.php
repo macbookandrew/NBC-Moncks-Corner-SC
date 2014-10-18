@@ -43,13 +43,7 @@
 		<h2 class="entry-title missionary">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h2>
-        <h3>
-        <?php
-            $non_country_ministries = array( 'Evangelism', 'Bible Translation', 'Deaf Ministry' );
-            if ( ! in_array( $category_name, $non_country_ministries ) ) { echo 'Missionaries to '; }
-            echo $category_name;
-        ?>
-        </h3>
+        <p class="missionary-field"><?php echo $category_name; ?></p>
     <?php // end Missionary archive page ?>
 	<?php else : ?>
 	<div class="entry-content">
