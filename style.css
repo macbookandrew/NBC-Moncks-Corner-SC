@@ -2083,6 +2083,17 @@ a.tel:hover {
       .flexbox .home-top-row .meteor-slides.home {
         margin: 0 auto;
         padding: 0 1em; } }
+.no-flexbox .home-top-row {
+  display: table; }
+  .no-flexbox .home-top-row .meteor-slides.home, .no-flexbox .home-top-row .entry-content {
+    display: table-cell;
+    float: left; }
+  .no-flexbox .home-top-row .entry-content {
+    padding-left: 2em; }
+@media (max-width: 900px) {
+  .home-top-row .meteor-slides.home {
+    margin: 0 auto;
+    padding: 0 1em; } }
 @media (min-width: 1000px) {
   .home-top-row .fancy-header {
     margin-top: 0; }

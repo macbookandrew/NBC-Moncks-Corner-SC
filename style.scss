@@ -2500,11 +2500,24 @@ a.tel:hover {
 
         @media (max-width: 999px) {
             flex-wrap: wrap;
+        }
+    }
+    
+    .no-flexbox & {
+        display: table;
+        
+        .meteor-slides.home, .entry-content {
+            display: table-cell;
+            float: left;
+        }
+        
+        .entry-content { padding-left: 2em; }
+    }
 
-            .meteor-slides.home {
-                margin: 0 auto;
-                padding: 0 1em;
-            }
+    @media (max-width: 900px) {
+        .meteor-slides.home {
+            margin: 0 auto;
+            padding: 0 1em;
         }
     }
 
