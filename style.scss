@@ -157,6 +157,13 @@ a:hover {
 	text-decoration: underline;
 }
 
+.fancy-header {
+    font-family: Pacifico, Rufina, Georgia, serif;
+    color: white;
+    margin-top: 0;
+    text-shadow: 1px 1px 9px #000;
+}
+
 h1,
 h2,
 h3,
@@ -761,10 +768,11 @@ img.alignnone {
 .entry-caption,
 .gallery-caption {
 	color: $dark-background;
+    text-align: center;
 	font-size: 18px;
 	font-style: italic;
 	font-weight: 300;
-	margin: 0 0 24px;
+	margin: .5em 0 24px;
 }
 
 div.wp-caption.alignright img[class*="wp-image-"] {
@@ -1043,6 +1051,7 @@ ul.nav-menu .focus > ul,
 .entry-content,
 .entry-summary,
 .entry-meta,
+.home .hentry,
 .missionary-archive {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -2484,21 +2493,45 @@ a.tel:hover {
     display: none;
 }
 
-.meteor-slides .meteor-clip {
-    border-radius: $border-radius;
+.home-top-row {
+    .flexbox & {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    /* TODO: find breakpoint to stack rather than side-by-side */
+    .meteor-slides { width: 63%; }
+    .entry-content { width: 30%; }
+    .wp-caption-text {
+        font-size: 12px;
+    }
+}
+
+.meteor-slides {
+    .meteor-clip {
+        border-radius: $border-radius;
+    }
+    
+    .meteor-clip, img, .meteor-buttons {
+        max-width: 751px;
+        max-height: 350px;
+    }
+
+    .meteor-buttons a {
+        float: none;
+        display: inline-block;
+    }
 }
 
 .meteor-buttons {
     text-align: center;
 }
 
-.meteor-slides .meteor-buttons a {
-    float: none;
-    display: inline-block;
-}
 
 .entry-content img,
-.meteor-clip {
+.meteor-clip,
+.home-quick-link img {
     box-shadow: 0 0 15px $dark-background;
 }
 

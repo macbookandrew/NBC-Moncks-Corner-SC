@@ -214,7 +214,7 @@ ul.meteor-nav li {
   color: #fff;
   left: 0;
   font-family: Pacifico, Rufina, Georgia, sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5;
   margin: 0;
   padding: 2% 2% 3%;
@@ -224,7 +224,7 @@ ul.meteor-nav li {
   min-width: 50%; }
   @media (max-width: 1009px) and (min-width: 818px) {
     .meteor-slides p {
-      font-size: 3em; } }
+      font-size: 2em; } }
   @media (min-width: 1010px) {
     .meteor-slides p {
-      font-size: 4em; } }
+      font-size: 3em; } }

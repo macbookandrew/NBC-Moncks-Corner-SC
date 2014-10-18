@@ -21,6 +21,8 @@
 .home-quick-link {
   padding: 1em;
   max-width: 240px; }
+  .home-quick-link img {
+    width: 100%; }
   @media (min-width: 900px) {
     .home-quick-link {
       width: 33%;
