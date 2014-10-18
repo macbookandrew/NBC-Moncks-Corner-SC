@@ -224,6 +224,7 @@ ul.meteor-nav li {
     text-shadow: 1px 1px 9px #000;
     min-width: 50%;
 
+    @media (min-width: 768px) { font-size: 4em; }
     @media (max-width: 1009px) and (min-width: 818px) { font-size: 2em; }
     @media (min-width: 1010px) { font-size: 3em; }
 }
