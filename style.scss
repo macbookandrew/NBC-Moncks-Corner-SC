@@ -856,7 +856,11 @@ img.wp-smiley,
 }
 
 .home-link {
-    position: relative;
+    @media (min-width: 768px) {
+        position: absolute;
+        z-index: -1;
+    }
+    @media (max-width: 767px) { position: relative; }
     margin: 0 auto;
 }
 
@@ -1000,7 +1004,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: $light-tan;
+	background-color: rgba($light-tan, 0.7);
 	margin: 0 auto;
 	width: 100%;
 }
@@ -1046,6 +1050,7 @@ ul.nav-menu .focus > ul,
 	padding: 40px 0 0;
 }
 
+.header-info,
 .entry-header,
 .entry-content,
 .entry-summary,

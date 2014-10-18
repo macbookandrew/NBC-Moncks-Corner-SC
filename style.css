@@ -728,8 +728,14 @@ img.wp-smiley,
   clip: rect(1px, 1px, 1px, 1px); }
 
 .home-link {
-  position: relative;
   margin: 0 auto; }
+  @media (min-width: 768px) {
+    .home-link {
+      position: absolute;
+      z-index: -1; } }
+  @media (max-width: 767px) {
+    .home-link {
+      position: relative; } }
 
 .logo {
   width: 100%;
@@ -845,7 +851,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-  background-color: #f7f5e7;
+  background-color: rgba(247, 245, 231, 0.7);
   margin: 0 auto;
   width: 100%; }
 
@@ -884,6 +890,7 @@ ul.nav-menu .focus > ul,
 .hentry {
   padding: 40px 0 0; }
 
+.header-info,
 .entry-header,
 .entry-content,
 .entry-summary,
