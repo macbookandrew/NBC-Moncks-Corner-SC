@@ -37,7 +37,7 @@
         foreach ($category_array as $this_category) {
             $category_name = $this_category->name;
         } ?>
-    <a href="<?php the_permalink(); ?>" class"flag-link" rel="bookmark">
+    <a href="<?php the_permalink(); ?>" class="flag-link" rel="bookmark">
         <div class="flag-webicon <?php echo strtolower(str_replace( ' ', '-', $category_name ) ); ?>"></div><!-- .flag-webicon -->
     </a>
 		<h2 class="entry-title missionary">
