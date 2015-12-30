@@ -114,9 +114,9 @@ function enqueue_modernizr() {
 }
 
 // load flag webicons only on missionary pages
-//if ( is_post_type_archive( 'missionary' ) || is_singular( 'missionary' ) ) {
-    function enqueue_flag_webicons() {
+function enqueue_flag_webicons() {
+    if ( is_post_type_archive( 'missionary' ) || is_singular( 'missionary' ) ) {
         wp_enqueue_style( 'flag-webicons', get_stylesheet_directory_uri() . '/css/flag-webicons.css' );
     }
-    add_action( 'wp_enqueue_scripts', 'enqueue_flag_webicons' );
-//}
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_flag_webicons' );
